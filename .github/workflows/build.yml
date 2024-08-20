@@ -12,6 +12,7 @@ on:
       - '**/settings.gradle'
       - .github/workflows/build.yml
       - LICENCE.txt
+  workflow_dispatch:
 
 jobs:
   build:
